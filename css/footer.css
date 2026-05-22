@@ -84,7 +84,6 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    margin-right: auto;
 }
 
 .footer-form-text {
