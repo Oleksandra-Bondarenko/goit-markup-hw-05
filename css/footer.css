@@ -82,8 +82,9 @@
 
 .footer-form-container {
     max-width: 453px;
-    height: 80px;
-    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .footer-form-text {
@@ -92,11 +93,11 @@
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    margin-bottom: 16px;
 }
 
 .footer-form {
     display: flex;
+    align-items: center;
     gap: 24px;
 }
 
